@@ -8,19 +8,6 @@
     "dev": "yarn webpack-dev-server",
     "build": "yarn webpack --mode production"
   },
-  "jest" : {
-    "preset": "ts-jest",
-    "globals": {},
-    "testEnvironment": "jsdom",
-    "transform": {
-      "^.+\\.vue$": "vue-jest",
-      "^.+\\js$": "babel-jest"
-    },
-    "moduleFileExtensions": ["vue", "js", "json", "jsx", "ts", "tsx", "node"],
-    "moduleNameMapper": {
-      "\\.txt$": "identity-obj-proxy"
-    }
-  },
   "devDependencies": {
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.0",
